@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-color: rgb(179, 148, 135);
+  padding: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -23,11 +26,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* App.css */
+
 
 .App-link {
   color: #61dafb;
 }
 
+
+
+
+.date-input {
+  width: 200px; /* Измените ширину на свой вкус */
+  padding: 10px;
+  border: 2px solid #61dafb; /* Измените цвет рамки на свой вкус */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  color: #282c34; /* Измените цвет текста на свой вкус */
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +58,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.containerSend {
+  text-align: center; /* Центрируем кнопку по горизонтали */
+}
+
+.sendBtn {
+  background-color: #3498db; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста на кнопке */
+  padding: 10px 20px; /* Отступы вокруг текста на кнопке */
+  border: none; /* Убираем границу кнопки */
+  border-radius: 5px; /* Закругляем углы кнопки */
+  cursor: pointer; /* Изменяем курсор при наведении */
+  transition: background-color 0.3s;
+  margin-top: 50px;
+}
+
+.sendBtn:hover {
+  background-color: #2681c2; /* Новый цвет фона при наведении курсора */
 }
