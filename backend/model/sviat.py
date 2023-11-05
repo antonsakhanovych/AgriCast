@@ -21,6 +21,9 @@ for file in files:
 
 ds = datasets[0]
 print(ds.data_vars)
-ds["BEDD"].plot()
+# ds["BEDD"].plot()
 
-plt.show()
+# plt.savefig('plot.png')
+
+#dataframe = ds.to_dataframe()
+#dataframe.to_csv("my_dataset.csv")
